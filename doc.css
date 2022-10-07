@@ -1,0 +1,231 @@
+body
+{
+width:auto;
+}
+.barre
+{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background: hsla(0,0%,100%,.98);
+    transition: box-shadow .25s ease 0s;
+    
+}
+.initial
+{
+    display: flex;
+    justify-content: space-around;
+}
+.navigation ul
+{
+    
+    display: flex;
+    list-style-type: none;
+    margin-right: 10px;
+    padding-top: 15px;
+}
+.navigation li
+{
+    font-size: 1.4em;
+    margin-right: 20px;
+}
+.navigation a
+{
+    color: gray;
+    text-decoration: none;
+}
+.navigation a:hover
+{
+    color: aqua;
+}
+.drop
+{
+    display:none;
+    position: absolute;
+    margin-left: -90px;
+}
+.logo
+{
+    display: block;
+    margin:  auto;
+    margin-top: 30px;
+}
+.titre
+{
+    font-size: 1.5em;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.texts
+{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.textone
+{
+    margin-top: 20px;
+    line-height: 25px;
+    padding: auto;
+    width: 37%;
+    height: auto;
+    color: grey;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: -100px;
+
+}
+.texttwo
+{
+    margin-top: 20px;
+    line-height: 25px;
+    padding: auto;
+    width: 37%;
+    height: auto;
+    color: grey;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -190px;
+
+}
+.gbb
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 70px;
+    margin:0 10px 0 10px;
+    
+
+}
+.green
+{
+
+    margin:0 10px 0 10px;
+    font-style: italic;
+    font-size: 1.2em;
+    color: antiquewhite;
+    width: 22%;
+    background-color: rgb(61, 143, 132);
+    border-radius: 15px;
+    height: 350px;
+    
+}
+.green h2,h3
+{
+    padding: 24px 20px 0 20px;
+    text-align: center;
+
+}
+.blue h2,h3
+{
+    padding: 24px 20px 0 20px;
+    text-align: center;
+
+}
+.black h2,h3
+{
+    padding: 24px 20px 0 20px;
+    text-align: center;
+
+}
+.blue
+{
+    margin:0 10px 0 10px;
+      font-style: italic;
+    font-size: 1.2em;
+    color: antiquewhite;
+    width: 22%;
+    background-color: rgb(64, 123, 201);
+    border-radius: 15px;
+    height: 350px;
+    
+}
+.black
+{
+ 
+    margin:0 10px 0 10px;
+    font-style: italic;
+    font-size: 1.2em;
+    color: antiquewhite;
+    width: 22%;
+    background-color: #5c6468;
+
+    border-radius: 15px;
+    height: 350px;
+}   
+.green:hover
+{
+    color: aquamarine;
+}
+.blue:hover
+{
+    color: aquamarine;
+}
+.black:hover
+{
+    color: aquamarine;
+}
+.style-select
+{
+    padding: 80px 0 10px 0;
+}
+.vert
+{
+    display: flex;
+    width: 100%;
+    background-color: rgb(154,247,240);
+    height: 660px;
+    margin-top: 120px;
+
+}
+.logodeux
+{
+    
+    position:relative;
+    justify-content: flex-end;
+    padding-left: 50px;
+    padding-top: 240px;
+    width: 480px;
+    height: 330px;
+    
+
+}
+.lestexts
+{
+    font-family: fantasy;
+    height: 50px;
+    width: 350px;
+    padding: 40px 0 0 200px;
+    color: rgb(60,125,117);
+}
+.un , .deux , .trois , .quatre
+{
+    font-size:medium;
+    height:250px;
+    background-color: antiquewhite;
+    margin-right: 10px;
+    width: 200px;
+}
+.lestrucs
+{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    position: top;
+    padding-left: 700px;
+}
+.villes
+{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 60px; 
+}
+.logun
+{
+    margin-right: 15px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
