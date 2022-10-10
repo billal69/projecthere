@@ -1,7 +1,10 @@
 body
 {
-width:auto;
+width:100%;
+background-color: rgb(220,218,215)
+
 }
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 .barre
 {
     position:fixed;
@@ -11,6 +14,7 @@ width:auto;
     z-index: 3;
     background: hsla(0,0%,100%,.98);
     transition: box-shadow .25s ease 0s;
+    background-color: rgb(220,218,215)
     
 }
 .initial
@@ -58,6 +62,7 @@ width:auto;
     text-align: center;
     color:darkolivegreen;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 100px;
 }
 .texts
 {
@@ -100,6 +105,10 @@ width:auto;
     margin:0 10px 0 10px;
     
 
+}
+.gbb h2,h3
+{
+    color: white;
 }
 .green
 {
@@ -173,59 +182,259 @@ width:auto;
 {
     padding: 80px 0 10px 0;
 }
-.vert
+.butonun
+{
+  
+
+  background: none;
+  color:black;
+  border-width: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family:Roboto,sans-serif;
+  font-size: large;
+  text-decoration: underline;
+  height: 44px;
+  position: relative;
+  bottom: 15px;
+  left: 5px;
+  text-align: center;
+  width: 150px;
+}
+.butondeux
+{
+  
+ 
+  background: none;
+  color:black;
+  border-width: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family:Roboto,sans-serif;
+  font-size: large;
+  text-decoration: underline;
+  height: 44px;
+  position: relative;
+  bottom: -12px;
+  left: 5px;
+  text-align: center;
+  width: 150px;
+}
+.butontrois
+{
+    background: none;
+  color:black;
+  border-width: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family:Roboto,sans-serif;
+  font-size: large;
+  text-decoration: underline;
+  height: 44px;
+  position: relative;
+  bottom: 15px;
+  left: 5px;
+  text-align: center;
+  width: 150px;
+
+}
+.fondvert
+{
+    margin-top: 45px;
+    background-color:rgb(155,248,240) ;
+    display: flex;
+    justify-content: center;
+}
+.bloc
+{
+
+    display: flex;
+    justify-content: space-around;
+    height: 75%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+.fondvert p,h4,h2
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color: rgb(61,126,118);
+}
+.blocun
 {
     display: flex;
-    width: 100%;
-    background-color: rgb(154,247,240);
-    height: 660px;
-    margin-top: 120px;
-
-}
-.logodeux
-{
+    flex-direction: column;
+    margin-top: 40px;
+    margin-right: 8px;
     
-    position:relative;
-    justify-content: flex-end;
-    padding-left: 50px;
-    padding-top: 240px;
-    width: 480px;
-    height: 330px;
+}
+.blocdeux
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
     
-
 }
-.lestexts
+.uno,.dos,.tres,.quatro
 {
-    font-family: fantasy;
-    height: 50px;
-    width: 350px;
-    padding: 40px 0 0 200px;
-    color: rgb(60,125,117);
-}
-.un , .deux , .trois , .quatre
-{
-    font-size:medium;
-    height:250px;
-    background-color: antiquewhite;
+    background-color: rgb(220,218,215);
+    height: 270px;
+    width: 250px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 12px;
     margin-right: 10px;
-    width: 200px;
+    margin-bottom: 12px;
+ }
+ .bloctext
+ {
+    padding-top: 50px;
+    font-size: 25px;
+ }
+ .textduvert h2 
+ {
+    font-style: italic;
+    font-weight: inherit;
+    font-size: 45px;
+ }
+ .textuno
+ { 
+    position: relative;
+    top: 20px;
+ }
+ .textuno p
+ {
+    font-size: 13px;
+ }
+ .fondvert img
+ {
+    width: 45px;
+    height: 40px;
+ }
+ .textuno h4 
+ {
+    font-size: 25px;
+
+ }
+.textduvert
+{
+    margin-right: 120px;
+    margin-top: 150px;
 }
-.lestrucs
+.lesvilles
 {
     display: flex;
-    justify-content: flex-start;
-    position: relative;
-    position: top;
-    padding-left: 700px;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.wic
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+
+}
+.brm
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+
+}
+.mb
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+
+}
+#wesht
+{
+    display: flex;
+    justify-content: center; 
+    justify-content: space-around;
+}
+#wesh:hover
+{
+    background-color:rgb(220,218,215);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+}
+#wesh img
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.warsaw
+{
+    border-radius: 8px;
 }
 .villes
 {
-    display:flex;
-    justify-content: space-around;
-    padding-top: 60px; 
+    margin-top: 55px;
 }
-.logun
+#wesht h5
 {
-    margin-right: 15px;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    color:rgb(106,115,119);
+    font-size: 20px;
+    position: relative;
+    bottom: 32px;
+}
+#wesht button
+{
+
+  
+  background-color: #2f80ed;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  height: 40px;
+  width: 120px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+}
+#wesht button:hover
+{
+    background-color:darkblue;
+}
+.bff
+{
+    margin-top: 85px;
+    margin-bottom: 80px;
+}
+.bientot
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bientot p
+{
+    font-size: 50px;
+}
+.bientot button
+{
+    background-color: #2f80ed;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 500;
+    height: 70px;
+    width: 320px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+
 }

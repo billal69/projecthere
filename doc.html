@@ -39,7 +39,7 @@ gitgit <!DOCTYPE html>
         </nav>
     </header>
     <section>
-        <img class="logo" src="https://www.docplanner.com/img/sygnet.png">
+        
         <h1 class="titre">
 			<i>Making the healthcare experience more human</i>
 		</h1>
@@ -61,8 +61,8 @@ gitgit <!DOCTYPE html>
             <h2>For Patients</h2>
             <h3>Find a doctor, book a visit and solve any health-related doubt</h3>
             <div class="style-select">
-                <select data-id="domain-switcher">
-                    <option>Choose country</option>
+                <select class="butonun">
+                    <option id="choice">Choose country</option>
                                                         <option value="#">Argentina</option>
                                                         <option value="#">Brazil</option>
                                                         <option value="#">Chile</option>
@@ -84,8 +84,9 @@ gitgit <!DOCTYPE html>
             <h2>For Doctors</h2>
             <h3>Save time managing visits and cut no-shows by half</h3>
             <div class="style-select">
-                <select data-id="domain-switcher">
-                    <option>Choose country</option>
+                <select class="butondeux">
+                    <option class="lesop">Choose country</option>
+                    
                                                         <option value="#">Argentina</option>
                                                         <option value="#">Brazil</option>
                                                         <option value="#">Chile</option>
@@ -99,6 +100,7 @@ gitgit <!DOCTYPE html>
                                                         <option value="#">Portugal</option>
                                                         <option value="#">Spain</option>
                                                         <option value="#">Turkey</option>
+                                                    
                                                 </select>
             </div>
 
@@ -107,7 +109,7 @@ gitgit <!DOCTYPE html>
             <h2>For Clinics</h2>
             <h3>Deliver an exceptional patient experience in your clinic</h3>
             <div class="style-select">
-                <select data-id="domain-switcher">
+                <select class="butontrois">
                     <option>Spacialist</option>
                                                         <option value="#">Argentina</option>
                                                         <option value="#">Brazil</option>
@@ -128,57 +130,133 @@ gitgit <!DOCTYPE html>
         </div>
 
     </section>
-    <section class="vert">
-        <div class="objets">
-            <div class="lestexts">
-                <h2>The world's biggest <br>
-                    healthcare platform</h2>
-                    <p>We work from 9 offices all over the world, bringing Docplanner Group to life in 13 countries.</p> 
-                    
-            </div>
-            
-            <div class="lestrucs">
-                <div class="un">
-                    <img class="logun" src="flag.png">
-                    <h3>Leader in 13 countries</h3>
-                    <p>Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia, Czech Republic, Portugal, Argentina, Peru and Chile</p>
-
-                </div>
-                <div class="deux">
-                    <img class="logun" src="visits.png">
-                    <h3>13,000,000
-                        appointments</h3>
-
-                </div>
-                <div class="trois">
-                    <img class="logun" src="patients.png">
-                    <h3>85,000,000
-                        patients</h3>
-
-                </div>
-              
-            </div>
-        
+    <section class="fondvert">
+        <div class="textduvert">
+            <h2>The world's biggest <br>
+                healthcare platform</h2><br>
+                <p>We work from 9 offices all over the world, bringing Docplanner<br> Group to life in 13 countries.</p>
         </div>
+        <div class="bloc">
+            <div class="blocun">
+                <div class="uno">
+                    <div class="textuno"> 
+                          <p> <img src="flag.png"> </p>
+                    <h4>Leader in <br>13 countries</h4>
+                    <p> Poland, Brazil, Mexico, Spain, Italy,<br> Germany, Turkey, Colombia, Czech  <br>Republic, Portugal, Argentina, Peru<br> and Chile </p>
+                    </div>
+                  
+                </div>
+                <div class="dos">
+                  <div class="bloctext">
+                    <p> <img src="patients.png"> </p>
+                    <h4>85,000,000 <br>
+                        patients</h4>
+
+                  </div>
+
+                </div>
+
+            </div>
+            <div class="blocdeux">
+                <div class="tres">
+                  <div class="bloctext">
+                    <p> <img src="visits.png"> </p>
+                    <h4>13,000,000 <br>
+                        appointments</h4>
+
+                  </div>
+
+                </div>
+                <div class="quatro">
+                    <div class="bloctext">
+                        <p> <img src="doctors.png"></p>
+                        <h4>190,000 <br>
+                            active doctors</h4>
+    
+
+                    </div>
+               
+                </div>
+
+            </div>
+
+        </div>
+       
 
     </section>
     <section class="villes">
-        <div>
-            <img class="logun" src="barcelona.png"><br>
-            <button>see openings</button>
-        
-        </div>
-        <div>
-            <img class="logun" src="bologna.png"><br>
-            <button>see openings</button>
-        </div>
-        <div>
-            <img class="logun" src="mexico-city.png"><br>
-            <button>see openings</button>
-        </div>
-   
-        
+        <div class="lesvilles">
+            <div class="wic">
+                <div class="warsaw">
+                    <div id="wesh">
+                        <p> <img src="warsaw.png" width="320px" height="280px" > </p><br>
+                       <div id="wesht"><h5>warsaw</h5> <button>see oppenings</button></div> 
+                    </div>
+                </div>
+                <div class="istanbul">
+                    <div id="wesh">
+                        <p> <img src="istanbul.png"width="320px" height="280px" > </p><br>
+                        <div id="wesht"><h5>istanbul</h5> <button>see oppenings</button></div> 
 
+                    </div>
+                </div>
+                <div class="curitiba">
+                    <div id="wesh">
+                        <p> <img src="curitiba.png"width="320px" height="280px" > </p><br>
+                        <div id="wesht"><h5>curitiba</h5> <button>see oppenings</button></div> 
+
+                    </div>
+                </div>
+            </div>
+            <div class="brm">
+                <div class="barcelona">
+                    <div id="wesh">
+                        <p> <img src="barcelona.png" width="320px" height="280px"> </p><br>
+                        <div id="wesht"><h5>barcelona</h5> <button>see oppenings</button></div> 
+
+                    </div>
+                </div>
+                <div class="rome">
+                    <div id="wesh">
+                        <p> <img src="rome@2x.png" width="320px" height="280px" > </p><br>
+                        <div id="wesht"><h5>rome</h5> <button>see oppenings</button></div> 
+
+                    </div>
+                </div>
+                <div class="mexico">
+                    <div id="wesh">
+                        <p> <img src="mexico-city.png"width="320px" height="280px" > </p><br>
+                        <div id="wesht"><h5>mexico</h5> <button>see oppenings</button></div> 
+
+                    </div>
+                </div>
+            </div>
+            <div class="mb">
+                <div class="munich">
+                    <div id="wesh">
+                        <p> <img src="munich.png" width="320px" height="280px"> </p><br>
+                        <div id="wesht"><h5>munich</h5> <button>see oppenings</button></div> 
+
+                    </div>
+                </div>
+                <div class="bologna">
+                    <div id="wesh">
+                        <p> <img src="bologna.png" width="320px" height="280px"> </p><br>
+                        <div id="wesht"><h5>bologna</h5> <button>see oppenings</button></div> 
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <section class="bff">
+        <div class="bientot">
+                
+        <P>Le JAVASCRIPT c'est pour bientot !!</P>
+
+        <a href="https://www.w3schools.com/js/"><button>JAVASCRIPT</button></a>
+        </div>
+    </section>
+   
 </body>
 </html>
