@@ -5,7 +5,7 @@ background-color: rgb(220,218,215)
 
 }
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
-.barre
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 {
     position:fixed;
     top: 0;
@@ -58,11 +58,17 @@ background-color: rgb(220,218,215)
 }
 .titre
 {
-    font-size: 1.5em;
     text-align: center;
+    margin-top: 70px;
+
+}
+.titre i
+{
     color:darkolivegreen;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 100px;
+    font-weight:lighter;
+    font-size: 35px;
+    font-family: 'Quicksand', sans-serif;
+
 }
 .texts
 {
