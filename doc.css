@@ -452,3 +452,6 @@ footer a
 {
     text-decoration: none;
 }
+.gbb h3:hover{color:rgb(202, 158, 243);}
+.gbb h2:hover{color:rgb(202, 158, 243);}
+.gbb{cursor: pointer;}
