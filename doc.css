@@ -444,3 +444,11 @@ background-color: rgb(220,218,215)
     border: none;
 
 }
+footer 
+{
+    text-align: center;
+}
+footer a 
+{
+    text-decoration: none;
+}
